@@ -20,3 +20,29 @@ The key is that the LLM learns from a large amount of text data to understand la
 
 Once the chatbot understands your message, it uses the language model to generate a response that it thinks will be helpful or interesting to you. The response is sent back to you, and the process continues as you have a back-and-forth conversation with the chatbot.
 
+### Intro: Hugging Face
+Hugging Face is an organization that focuses on natural language processing (NLP) and AI. They provide a variety of tools, resources, and services to support NLP tasks.
+
+You'll be making use of their Python library transformers in this project.
+
+Alright! Now that you know how a chatbot works at a high level, let's get started with implementing a simple chatbot!
+
+
+# Step 1: Installing requirements
+Follow these steps to create a Python virtual environment and install the necessary libraries. Open a new terminal first.
+Set up your virtual environment:
+
+  1. pip3 install virtualenv
+  2. virtualenv my_env # create a virtual environment my_env
+  3. source my_env/bin/activate # activate my_env
+
+For this example, you will be using the transformers library, which is an open-source natural language processing (NLP) toolkit with many useful features, and also let's install a torch library.
+
+  1. python3 -m pip install transformers==4.30.2 torch
+
+Wait a few minutes to install the packages.
+
+![image](https://github.com/user-attachments/assets/68a2f024-2d63-4e16-8c96-d200ecbfc409)
+
+
+
