@@ -38,7 +38,7 @@ Set up your virtual environment:
 
 For this example, you will be using the transformers library, which is an open-source natural language processing (NLP) toolkit with many useful features, and also let's install a torch library.
 
-  1. python3 -m pip install transformers==4.30.2 torch
+  1. python3 -m pip install transformers torch
 
 Wait a few minutes to install the packages.
 
@@ -52,6 +52,12 @@ In your terminal, let's install the following requisites:
 1. python3 -m pip install flask
 2. python3 -m pip install flask_cors
 
+
 ### Setting up the server
 To create a new Python file, Click on File Explorer, then right-click in the explorer area and select New File. Name this new file app.py.
+
+Run the app using the following command in the Terminal:
+python3 app.py
+
+
 
