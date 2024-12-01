@@ -42,7 +42,16 @@ For this example, you will be using the transformers library, which is an open-s
 
 Wait a few minutes to install the packages.
 
-![image](https://github.com/user-attachments/assets/68a2f024-2d63-4e16-8c96-d200ecbfc409)
 
+# Interfacing your Chatbot into a Web Interface
+## Hosting your chatbot on a backend server
 
+### Prerequisites
+In your terminal, let's install the following requisites:
+
+1. python3 -m pip install flask
+2. python3 -m pip install flask_cors
+
+### Setting up the server
+To create a new Python file, Click on File Explorer, then right-click in the explorer area and select New File. Name this new file app.py.
 
