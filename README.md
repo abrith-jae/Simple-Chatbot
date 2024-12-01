@@ -85,6 +85,11 @@ Let's move your flask app app.py to the LLM_application_chatbot/ folder so that 
 Both app.py and the LLM_application_chatbot/ folder should be in /home/project. You can move app.py into ibm_chatbot_template/ by running the following line in the terminal:
 
 1. mv app.py LLM_application_chatbot/
+2. cd LLM_application_chatbot/
+3. ls
+
+Run the app.py execute the following code in the Terminal:
+flask run
 
 
 
