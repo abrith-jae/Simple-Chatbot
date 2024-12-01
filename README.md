@@ -60,4 +60,33 @@ Run the app using the following command in the Terminal:
 python3 app.py
 
 
+# Communicating with your backend using a webpage
+In this section, you'll download a template chatbot webpage and configure it to make requests to your backend server.
+
+First, let's clone a repository that has a template website and install your required libraries.
+If your flask app is running, terminate it with Ctrl + C and run the following lines in the terminal:
+
+1. git clone https://github.com/ibm-developer-skills-network/LLM_application_chatbot
+2. python3 -m pip install -r LLM_application_chatbot/requirements.txt
+
+If the operations are complete with no errors, then you have successfully obtained a copy of the template repository.
+
+The file structure of this repo should be as follows:
+
+  - ibm-chatbot-template/
+    - static/
+      - script.js
+      - < other assets >
+    - templates/
+      - index.html
+
+Let's move your flask app app.py to the LLM_application_chatbot/ folder so that you can host index.html on your server.
+
+Both app.py and the LLM_application_chatbot/ folder should be in /home/project. You can move app.py into ibm_chatbot_template/ by running the following line in the terminal:
+
+1. mv app.py LLM_application_chatbot/
+
+
+
+
 
